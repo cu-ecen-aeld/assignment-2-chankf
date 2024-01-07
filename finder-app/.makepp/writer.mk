@@ -1,0 +1,15 @@
+IMPLICIT_TARGETS=writer
+DEP_SIGS=1666603686,11582881704401949,8712
+SORTED_DEPS=/usr/bin/gccwriter.o
+IMPLICIT_DEPS=writer.o
+SIG_METHOD_NAME=C
+SIG_METHOD_IMPLICIT=1
+META_DEPS=/usr/bin/gcc
+INCLUDE_PATHS=lib/usr/local/lib/usr/lib/libsys/usr/local/include/usr/includeuser/usr/local/include/usr/include
+SIGNATURE=1704402015,20304
+COMMAND=gcc writer.o    -o writer
+ARCH=x86_64-linux-gnu-thread-multi
+BUILD_SIGNATURE=1704402015,20304
+CWD=.
+INCLUDE_SFXS=lib.la.so.sa.a.sl
+END=

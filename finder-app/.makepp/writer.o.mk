@@ -1,0 +1,15 @@
+SIG_METHOD_IMPLICIT=1
+ARCH=x86_64-linux-gnu-thread-multi
+INCLUDE_SFXS=
+SIG_METHOD_NAME=C
+DEP_SIGS=1700659970,16791700659970,97101666603686,11582881700659970,299501700659970,358351700659970,176601700659970,241700659970,42804fzlus4QmVev7pEigmb5wpA
+META_DEPS=/usr/bin/gccwriter.csyserrno.hfcntl.hstdio.hstdlib.hstring.hsys/stat.hsys/types.hsyslog.hunistd.h
+BUILD_SIGNATURE=1704401949,8712
+INCLUDE_PATHS=sys/usr/local/include/usr/includeuser/usr/local/include/usr/include
+CWD=.
+COMMAND=gcc  -g -Wall  -c writer.c -o writer.o
+SORTED_DEPS=/usr/include/errno.h/usr/include/fcntl.h/usr/bin/gcc/usr/include/stdio.h/usr/include/stdlib.h/usr/include/string.h/usr/include/syslog.h/usr/include/unistd.hwriter.c
+IMPLICIT_TARGETS=writer.o
+IMPLICIT_DEPS=
+SIGNATURE=1704401949,8712
+END=

@@ -1,0 +1,69 @@
+3/usr/bin/makepp writer
+VERSION2.0.98.55.30.0x86_64-linux-gnu-thread-multi
+DEBUG0
+LOAD_DEFAULT55c8ca799188finder-app55c8ca868f80/home/chankf/Documents/Linux_System_Programming
+LOAD_INCL55c8ca9e7468makepp_builtin_rules.mk55c8ca5665f0/usr/share/makepp55c8cb004730makepp_default_makefile.mk55c8ca5665f0
+LOAD_END55c8cb004730
+TRY55c8cb001d28writer55c8ca799188
+USE/usr/share/makepp/makepp_builtin_rules.mk:78(/home/chankf/Documents/Linux_System_Programming/finder-app)
+INFER_SEED55c8cb022198writer.o55c8ca799188
+PREBUILD55c8cb022198/usr/share/makepp/makepp_builtin_rules.mk:78(/home/chankf/Documents/Linux_System_Programming/finder-app)
+TRY55c8cb022198
+USE/usr/share/makepp/makepp_builtin_rules.mk:97(/home/chankf/Documents/Linux_System_Programming/finder-app)
+SCAN_INFO55c8cb022198
+CACHED_DEP55c8cb035528gcc55c8cb035450/usr/bin55c8cb022198
+TRY55c8cb035528
+USEdefault rule
+DEPEND55c8cb035528
+UP_TO_DATE55c8cb035528
+CACHED_DEP55c8cb022258writer.c55c8ca79918855c8cb022198
+TRY55c8cb022258
+USEdefault rule
+DEPEND55c8cb022258
+UP_TO_DATE55c8cb022258
+CACHED_DEP55c8cb034e20errno.h55c8cb044c60/usr/include55c8cb022198
+TRY55c8cb034e20
+USEdefault rule
+DEPEND55c8cb034e20
+UP_TO_DATE55c8cb034e20
+CACHED_DEP55c8ca540608fcntl.h55c8cb044c6055c8cb022198
+TRY55c8ca540608
+USEdefault rule
+DEPEND55c8ca540608
+UP_TO_DATE55c8ca540608
+CACHED_DEP55c8cb09d3e8stdio.h55c8cb044c6055c8cb022198
+TRY55c8cb09d3e8
+USEdefault rule
+DEPEND55c8cb09d3e8
+UP_TO_DATE55c8cb09d3e8
+CACHED_DEP55c8cb092d70stdlib.h55c8cb044c6055c8cb022198
+TRY55c8cb092d70
+USEdefault rule
+DEPEND55c8cb092d70
+UP_TO_DATE55c8cb092d70
+CACHED_DEP55c8cb0968f8string.h55c8cb044c6055c8cb022198
+TRY55c8cb0968f8
+USEdefault rule
+DEPEND55c8cb0968f8
+UP_TO_DATE55c8cb0968f8
+CACHED_DEP55c8cb0a28c8syslog.h55c8cb044c6055c8cb022198
+TRY55c8cb0a28c8
+USEdefault rule
+DEPEND55c8cb0a28c8
+UP_TO_DATE55c8cb0a28c8
+CACHED_DEP55c8cb09c818unistd.h55c8cb044c6055c8cb022198
+TRY55c8cb09c818
+USEdefault rule
+DEPEND55c8cb09c818
+UP_TO_DATE55c8cb09c818
+SCAN_CACHED55c8cb022198
+DEPEND55c8cb02219855c8cb034e2055c8ca54060855c8cb03552855c8cb09d3e855c8cb092d7055c8cb0968f855c8cb0a28c855c8cb09c81855c8cb022258
+UP_TO_DATE55c8cb022198
+PREBUILD55c8cb022198/usr/share/makepp/makepp_builtin_rules.mk:78(/home/chankf/Documents/Linux_System_Programming/finder-app)
+SCAN_INFO55c8cb001d28
+LEX_RULE55c8cb001d28info not cached
+PARSEgcc writer.o    -o writer55c8ca799188/usr/share/makepp/makepp_builtin_rules.mk:78(/home/chankf/Documents/Linux_System_Programming/finder-app)
+DEPEND55c8cb001d2855c8cb03552855c8cb022198
+BUILD_NONE55c8cb001d28
+SUCCESS/usr/share/makepp/makepp_builtin_rules.mk:78(/home/chankf/Documents/Linux_System_Programming/finder-app)55c8cb001d28
+N_FILES100
