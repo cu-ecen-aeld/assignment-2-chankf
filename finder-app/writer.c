@@ -10,7 +10,7 @@
     2024-01-07
         - test make, makefile
         - test CROSS_COMPILE
-        - xxxxXx
+        - corrected locations of arguments: argv[1]=filename, argv[2]=string
 
 */
 #include <sys/types.h>
@@ -39,15 +39,16 @@ int main (int argc, char *argv[])
     if (argc <= 2)
     {
         printf("Error: Insufficient arguments.\n");
-        printf("Usage: writer \"string to write\" /path/to/file\n");
+        printf("Usage: writer /path/to/file \"string to write\" \n");
 
-        syslog(LOG_DEBUG, "Insufficient arguments! \nUsage: Writer \"string\" /path/to/file");
+        syslog(LOG_DEBUG, "Insufficient arguments! \nUsage: writer /path/to/file \"string\" ");
 
         exit (EXIT_FAILURE);
     }
 
-    writestr = argv[1];
-    writefile = argv[2];
+    writefile = argv[1];
+    writestr = argv[2];
+
 
     errno = 0;
 
